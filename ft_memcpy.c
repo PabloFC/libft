@@ -6,7 +6,7 @@
 /*   By: pafuente <pafuente@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 11:36:04 by pafuente          #+#    #+#             */
-/*   Updated: 2024/12/12 13:09:35 by pafuente         ###   ########.fr       */
+/*   Updated: 2024/12/14 13:21:52 by pafuente         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,13 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-// int main() {
-//     char src[] = "Hola mundo";
-//     char dest[20];
+int main() {
+    char src[] = "Hola mundo";
+    char dest[20];
 
-//     ft_memcpy(dest, src, strlen(src) + 1);
-//     printf("Original: %s\n", src);
-//     printf("Copiado:  %s\n", dest);
+    ft_memcpy(dest, src, strlen(src) + 1);
+    printf("Original: %s\n", src);
+    printf("Copiado:  %s\n", dest);
 
-//     return 0;
-// }
+    return 0;
+}

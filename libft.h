@@ -6,7 +6,7 @@
 /*   By: pafuente <pafuente@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 13:06:21 by pafuente          #+#    #+#             */
-/*   Updated: 2024/12/14 11:58:31 by pafuente         ###   ########.fr       */
+/*   Updated: 2024/12/14 12:22:21 by pafuente         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *src);
 
 // 2 Chapter
-// char	*ft_substr(char const *s, unsigned int start, size_t len);
+ char	*ft_substr(char const *s, unsigned int start, size_t len);
 // char	*ft_strjoin(char const *s1, char const *s2);
 // char	*ft_strtrim(char const *s1, char const *set);
 // char	**ft_split(char const *s, char c);
